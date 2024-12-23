@@ -1,16 +1,16 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://www.voxco.com/wp-content/uploads/2021/09/Sentiment-Analysis1.jpg'); /* Background image */
-    background-size: cover; /* Keep cover to fill the background */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    color: white; /* Default text color for visibility */
-    height: 100vh; /* Set height to 100% of the viewport */
+    background-image: url('https://www.voxco.com/wp-content/uploads/2021/09/Sentiment-Analysis1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    height: 100vh; 
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.7); 
     padding: 15px;
 }
 
@@ -33,39 +33,39 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for the container */
+    background-color: rgba(0, 0, 0, 0.8); 
     padding: 40px;
-    margin: 100px auto; /* Center the container */
-    width: 80%; /* Responsive width */
-    max-width: 600px; /* Maximum width */
-    border-radius: 10px; /* Rounded corners */
+    margin: 100px auto; 
+    width: 80%; 
+    max-width: 600px; 
+    border-radius: 10px; 
 }
 
 h1 {
-    font-size: 2.5em; /* Title size */
-    margin-bottom: 20px; /* Space below title */
+    font-size: 2.5em;
+    margin-bottom: 20px; 
 }
 
 .positive-message {
-    margin-bottom: 20px; /* Space below message */
-    font-size: 1.5em; /* Message size */
-    padding: 20px; /* Padding for better spacing */
-    border: 2px solid #28a745; /* Green border */
-    border-radius: 8px; /* Rounded corners */
-    background-color: rgba(255, 255, 255, 0.2); /* Light transparent background */
+    margin-bottom: 20px;
+    font-size: 1.5em; 
+    padding: 20px; 
+    border: 2px solid #28a745;
+    border-radius: 8px; 
+    background-color: rgba(255, 255, 255, 0.2); 
 }
 
 button {
-    padding: 10px 20px; /* Button padding */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #28a745; /* Green background */
-    color: white; /* Text color */
-    font-size: 1.2em; /* Font size */
-    cursor: pointer; /* Pointer on hover */
-    transition: background-color 0.3s; /* Transition for hover effect */
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #28a745; 
+    color: white;
+    font-size: 1.2em; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
 }
 
 button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838;
 }
