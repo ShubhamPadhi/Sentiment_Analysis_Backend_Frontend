@@ -1,2 +1,2 @@
-# Sentiment_Analysis_Backend
-This repository consist the backend part 
+# Sentiment_Analysis_Backend_Frontend
+This repository consist the backend and frontend part 
