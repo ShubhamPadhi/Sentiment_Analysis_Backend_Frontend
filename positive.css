@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.voxco.com/wp-content/uploads/2021/09/Sentiment-Analysis1.jpg'); /* Background image */
+    background-size: cover; /* Keep cover to fill the background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white; /* Default text color for visibility */
+    height: 100vh; /* Set height to 100% of the viewport */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for the container */
+    padding: 40px;
+    margin: 100px auto; /* Center the container */
+    width: 80%; /* Responsive width */
+    max-width: 600px; /* Maximum width */
+    border-radius: 10px; /* Rounded corners */
+}
+
+h1 {
+    font-size: 2.5em; /* Title size */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.positive-message {
+    margin-bottom: 20px; /* Space below message */
+    font-size: 1.5em; /* Message size */
+    padding: 20px; /* Padding for better spacing */
+    border: 2px solid #28a745; /* Green border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.2); /* Light transparent background */
+}
+
+button {
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #28a745; /* Green background */
+    color: white; /* Text color */
+    font-size: 1.2em; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

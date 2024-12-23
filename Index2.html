@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="SAindex.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <marquee behavior="scroll" direction="left" style="color: white; font-size: 18px;">
+        Welcome to the Sentiment Analysis Application! Enter your text and predict the sentiment!--Shubham Padhi
+    </marquee>
+    
+    <div class="container">
+        <h1>Sentiment Analysis</h1>
+        <form method="POST" action="/predict" class="form-container">
+            <input type="text" name="input_text" placeholder="Enter text here" required>
+            <button type="submit">Predict Sentiment</button>
+        </form>
+        
+        <div class="result" id="resultContainer" style="display: none;">
+            <h2 id="predictionResult">Predicted Sentiment: </h2>
+        </div>
+    </div>
+    <div id="loadingBar" class="loading-bar" style="display: none;"></div>
+</div>
+
+    <!-- Link to External JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>

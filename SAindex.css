@@ -1,0 +1,87 @@
+/* SAindex.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.voxco.com/wp-content/uploads/2021/09/Sentiment-Analysis1.jpg'); /* Use your machine learning-related background image */
+    background-size: cover; /* Make the image cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white; /* Default text color for visibility */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    color: white; /* Change text color for better visibility */
+    padding: 20px;
+    max-width: 400px; /* Set a maximum width */
+    margin: 50px auto; /* Center the container horizontally and add some space from the top */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the container */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.form-container {
+    margin: 20px auto;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%; /* Full width within the container */
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Bootstrap success color */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.result {
+    margin-top: 20px;
+}
+.loading-bar {
+    width: 100%; /* Full width */
+    height: 5px; /* Height of the loading bar */
+    background-color: #28a745; /* Color of the loading bar */
+    display: none; /* Initially hidden */
+    margin-top: 20px; /* Space from the elements above */
+    transition: width 0.5s; /* Smooth width transition */
+}
+/* SAindex.css */
+
+/* ... existing styles ... */
+
+marquee {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px; /* Padding around the text */
+    margin: 0; /* Remove default margin */
+    border-radius: 5px; /* Rounded corners */
+}
