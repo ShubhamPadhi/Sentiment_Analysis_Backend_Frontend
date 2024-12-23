@@ -25,7 +25,7 @@ document.getElementById('sentimentForm').addEventListener('submit', function(eve
         
         const resultContainer = document.getElementById('resultContainer');
         const predictionResult = document.getElementById('predictionResult');
-        predictionResult.textContent = 'Predicted Sentiment: Positive'; // Example result
+        predictionResult.textContent = 'Predicted Sentiment: Positive'; 
         resultContainer.style.display = 'block';
     }, 2000); 
 });
